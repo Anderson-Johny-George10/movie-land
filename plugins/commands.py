@@ -92,21 +92,21 @@ async def start(bot, cmd):
             )
         )
     else:
-        await cmd.reply_video(
-            video="https://telegra.ph/file/2451d574ac17276c3a0e6.mp4",
+        await cmd.reply_photo(
+            photo="https://telegra.ph/file/a07e2db286d7a5d5af1d4.jpg",
             caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("➕️Add Me To Your Chats ➕️", url="https://t.me/tvseriezzz_bot?startgroup=botstart")
+                        InlineKeyboardButton("➕️Add Me To Your Chats ➕️", url="https://t.me/cinegraamam_filterbot?startgroup=botstart")
                     ],
                     [
-                        InlineKeyboardButton("♻️ ⒼⓇⓄⓊⓅ ♻️", url="https://t.me/tvseriezzz"),
-                        InlineKeyboardButton("⭕️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ⭕️", url="https://t.me/tvseriezzz_update")
+                        InlineKeyboardButton("♻️ ⒼⓇⓄⓊⓅ ♻️", url="https://t.me/Fc_Movie_Land"),
+                        InlineKeyboardButton("⭕️ OTT UPDATES ⭕️", url="https://t.me/Flix_updates")
                     ],
                     [
-                        InlineKeyboardButton("♻️ ⒼⓇⓄⓊⓅ 2 ♻️", url="https://t.me/MrCVENOM_chat"),
-                        InlineKeyboardButton("🔥 Dev 🔥", url="https://t.me/MrC_VENOM")
+                        InlineKeyboardButton("♻️ Channels ♻️", url="https://t.me/FC_Linkz"),
+                        InlineKeyboardButton("🔥 Dev 🔥", url="https://t.me/itzz_me_17")
                     ],
                     [
                         InlineKeyboardButton("𝙰𝚋𝚘𝚞𝚝 🚩", callback_data="about")
@@ -198,11 +198,11 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton("♻️ ⒼⓇⓄⓊⓅ ♻️", url="https://t.me/tvseriezzz"),
-            InlineKeyboardButton("⭕️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ⭕️", url="https://t.me/tvseriezzz_update")
+            InlineKeyboardButton("♻️ ⒼⓇⓄⓊⓅ ♻️", url="https://t.me/FC_Movie_Land"),
+            InlineKeyboardButton("⭕️ Channels ⭕️", url="https://t.me/FC_Linkz")
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/MrC_VENOM'>MrC《》VENOM</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSupport Group : <a href='https://t.me/tvseriezzz'>Click here</a>\nUpdate Channel : <a href='https://t.me/tvseriezzz_update'>♠️ 𝑨𝒍𝒍 𝑰𝒏 𝑶𝒏𝒆 𝑮𝒓𝒐𝒖𝒑 {Update}</a> </b>\n<b>Click Here For Help 👉 /help</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>Developer : <a href='https://t.me/pranthan_321'>pranthan</a>\n Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSupport Group : <a href='https://t.me/tvseriezzz'>Click here</a>\nUpdate Channel : <a href='https://t.me/tvseriezzz_update'>♠️ 𝑨𝒍𝒍 𝑰𝒏 𝑶𝒏𝒆 𝑮𝒓𝒐𝒖𝒑 {Update}</a> </b>\n<b>Click Here For Help 👉 /help</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 @Client.on_message(filters.command('help'))
 async def bot_info(bot, message):
